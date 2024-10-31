@@ -1,0 +1,30 @@
+.login-container{
+    display: flex;
+    margin-top: 50px;
+}
+.btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120%;
+    margin-top: 30px;
+}
+.login-button{
+    border: 1px solid #ff4c4c;
+    padding: 10px 40px;
+    background-color: #ff4c4c;
+    border-radius: 5px;
+    color: #fff;
+}
+.forgot-password {
+    margin-left: 20px;
+}
+.forgot-password a {
+    color: #ff4c4c;
+    text-decoration: none;
+}
+.error{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+  }

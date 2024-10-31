@@ -1,0 +1,76 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: #FAFAFA;
+    margin-top: 80px;
+}
+.footer-box{
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0px;
+}
+.link1{
+    line-height: 20px;
+}
+.phera{
+    margin-top: 25px;
+}
+.link1 h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.link1 p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.link2 h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.link2 ul li{
+    list-style: none;
+    text-align: left;
+    margin-left: -30px;
+    display: block;
+    padding: 8px 0px;
+}
+.link2 a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+.graphy{
+    display: flex;
+    gap: 10px;
+}
+.plays{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.link4 h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.link4 p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.footer-search{
+    border: 1px solid #f4f4f4;
+    padding: 5px;
+}
+.footer-search input{
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #FAFAFA;
+}

@@ -1,0 +1,190 @@
+.navbar-container {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-box {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo styling */
+.navbar-logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+/* Navbar links */
+.navbar-links ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links ul li {
+  font-size: 16px;
+}
+
+.navbar-links ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+}
+
+.navbar-links ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Icon container */
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Search bar */
+.search-bar {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.search-bar input {
+  padding: 8px 10px 8px 10px;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  left: 175px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+}
+
+.icons{
+  display: flex;
+  gap: 13px;
+}
+
+/* Heart icon */
+.heart-icon {
+  font-size: 22px;
+  color: #666;
+  cursor: pointer;
+}
+
+/* Cart icon */
+.cart-icon-container {
+  position: relative;
+}
+
+.cart-icon {
+  font-size: 22px;
+  color: #666;
+  cursor: pointer;
+}
+
+.cart-item-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+/* Profile dropdown menu */
+/* .profile-menu {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 15px;
+} */
+
+/* .vector-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+} */
+
+/* .profile-icon {
+  font-size: 32px;
+  color: #fff;
+  margin-left: 8px;
+  cursor: pointer;
+  border: 1px solid red;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: red;
+  margin-top: -4px;
+}
+ */
+
+
+.wishlist-item-count{
+  position: absolute;
+  top: 20px;
+  right: 210px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+
+.profile-dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-icon {
+  cursor: pointer;
+  color: #000; /* Adjust color as needed */
+}
+
+/* For the dropdown */
+.dropdown-menu {
+  position: absolute;
+  top: 60px; /* Adjust based on your navbar height */
+  right: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+.profile-dropdown-container {
+  position: relative;
+}
+

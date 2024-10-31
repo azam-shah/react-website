@@ -1,0 +1,102 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.contact-box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.call{
+    display: flex;
+    gap: 15px;
+}
+.call p{
+    margin-top: 8px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.peras{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+.peras p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 20px;
+    margin-top: 18px;
+}
+.email{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+.email p{
+    margin-top: 8px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.mail p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 20px;
+    margin-top: 18px;
+}
+.mail-box{
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 1px 13px 0px #0000000D;
+}
+.inputs{
+    display: flex;
+    gap: 20px;
+}
+.inputs input{
+    border: 1px solid rgb(233, 229, 229);
+    background-color: rgb(233, 229, 229);
+    padding: 8px;
+    border-radius: 5px;
+}
+.inputs ::placeholder{
+    color: #000000;
+}
+.message input{
+    width: 100%;
+    padding-bottom: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    border: 1px solid rgb(233, 229, 229);
+    background-color: rgb(233, 229, 229);
+    border-radius: 10px;
+}
+.message ::placeholder{
+    color: #000000;
+}
+#send-btn{
+    border: 1px solid #DB4444;
+    background-color: #DB4444;
+    color: #fff;
+    padding: 15px 45px;
+    border-radius: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+.message-container{
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0px 1px 13px 0px #0000000D;
+}

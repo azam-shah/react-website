@@ -1,0 +1,152 @@
+.about-container{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.about-details{
+    padding: 20px 130px;
+    margin-top: 100px;
+}
+.about-details h1{
+    font-size: 54px;
+    font-weight: 600;
+    color: #000000;
+}
+.about-details p{
+    width: 130%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.about-img img{
+    width: 705px;
+    height: 609px;
+}
+
+
+/* service section  */
+
+.service-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.service-box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.service-details{
+    text-align: center;
+}
+.service-pera{
+    border: 1px solid gray;
+    padding: 35px;
+    color: #000000;
+    transition: all 0.3s ease; 
+}
+.service-pera h4{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.service-pera p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.service-pera:hover {
+    transform: scale(1.05);
+    border: 1px solid #DB4444;
+    background-color: #DB4444;
+    color: #fff;
+    box-shadow: 0px 0px 15px 5px rgba(219, 68, 68, 0.6);
+    cursor: pointer;
+}
+
+
+/* expert section */
+
+.icons{
+    display: flex;
+}
+.expert-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.expert-box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.main-img img{
+    width: 340px;
+}
+.expert-details{
+    margin-top: 20px;
+}
+.expert-details h4{
+    font-size: 32px;
+    font-weight: 500;
+    color: #000000;
+}
+.expert-details p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.boo{
+    transition: all 0.3s ease; 
+}
+.boo:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px rgb(102, 101, 101);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+
+
+.boom-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+}
+.boom-box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.boom-details{
+    text-align: center;
+    transition: all 0.3s ease; 
+    color: #000000;
+}
+.boom-details h4{
+    font-size: 20px;
+    font-family: 600;
+    margin-top: 25px;
+}
+.boom-details p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.boom-details:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px rgb(102, 101, 101);
+    border: 1px solid rgb(102, 101, 101);
+    background-color: rgb(102, 101, 101);
+    padding: 40px;
+    border-radius: 20px;
+    color: #fff;
+}
